@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Great Vibes", serif;
+}
+
+body{
+    background-color: #222222;
+}
+
+form{
+    height: 600px;
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px black;
+}
+
+.form-head{
+    background-color: rgb(27, 32, 32);
+    position: relative;
+    height: 50px;
+    
+}
+
+.form-head a{
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: wheat;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+}
+.form-head h2{
+    text-align: center;
+    color: wheat;
+}
+
+.firstname, .secondname{
+width: 100%;
+padding: 10px;
+border: none;
+background: none;
+outline: none;
+border-bottom: solid 2px wheat;
+color: wheat;
+font-size: 30px;
+}
+.form-body{
+    padding: 20px;
+    color: wheat;
+}
+.form-body div{
+    margin: 20px 0px;
+}
+.form-body p{
+    margin-top: 10px 0px;
+    font-size: 30px;
+}
+textarea{
+    background: none;
+    border: solid 4px wheat;
+    resize: none;
+    outline: none;
+    color: wheat;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+}
+button{
+    margin: auto;
+    display: block;
+    background: rgb(27, 32, 32);
+    color: wheat;
+    font-size: 20px;
+    border: solid wheat 3px;
+    padding: 5px;
+}
